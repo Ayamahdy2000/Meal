@@ -424,65 +424,68 @@ section {
             margin-bottom: 100px;
 
         }
+form{
+ 
+    .from-group {
+        width: 260px;
+        margin: 10px 0;
+      
 
-        .from-group {
-            width: 260px;
-            margin: 10px 0;
-
-            label {
-                margin: 0 0 5px;
-                color: gray;
-                font-size: 18px;
-                font-weight: bold;
-            }
-           .icon-input{
-               width: 260px;
-               position: relative;
-            .form-control {
-                max-width: 100%;
-                border-radius: 3px;
-                border: 2px solid #cccccc;
-                color: gray;
-
-            }
-
-            .form-control:focus {
-                border: 2px solid #ff7a5c;
-                box-shadow: none;
-            }
-
-            .form-control:hover {
-                border: 2px solid #ff7a5c;
-            }
-
-            
-              
-
-                .icon {
-                    position: absolute;
-                    top: 20%;
-                    right: 20px;
-                }
-            
-        }
-    }
-        button {
-            margin: 20px 0 50px;
-            background-color: #fff;
-            width: 280px;
-            border-radius: 3px;
-            border: 2px solid #ff7a5c;
-            text-transform: uppercase;
-            text-align: center;
-            color: #ff7a5c;
+        label {
+            margin: 0 0 5px;
+            color: gray;
+            font-size: 18px;
             font-weight: bold;
-            letter-spacing: 0.2rem;
+        }
+       .icon-input{
+           width: 260px;
+           position: relative;
+        .form-control {
+            max-width: 100%;
+            border-radius: 3px;
+            border: 2px solid #cccccc;
+            color: gray;
+
         }
 
-        button:hover {
-            background-color: #ff7a5c;
-            color: black;
+        .form-control:focus {
+            border: 2px solid #ff7a5c;
+            box-shadow: none;
         }
+
+        .form-control:hover {
+            border: 2px solid #ff7a5c;
+        }
+
+        
+          
+
+            .icon {
+                position: absolute;
+                top: 20%;
+                right: 20px;
+            }
+        
+    }
+}
+    button {
+        margin: 20px 0 50px;
+        background-color: #fff;
+        width: 280px;
+        border-radius: 3px;
+        border: 2px solid #ff7a5c;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ff7a5c;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+    }
+
+    button:hover {
+        background-color: #ff7a5c;
+        color: black;
+    }
+}
     }
 
 

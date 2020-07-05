@@ -272,39 +272,39 @@ section.reservation h2 {
 section.reservation .bg-white {
   margin-bottom: 100px;
 }
-section.reservation .from-group {
+section.reservation form .from-group {
   width: 260px;
   margin: 10px 0;
 }
-section.reservation .from-group label {
+section.reservation form .from-group label {
   margin: 0 0 5px;
   color: gray;
   font-size: 18px;
   font-weight: bold;
 }
-section.reservation .from-group .icon-input {
+section.reservation form .from-group .icon-input {
   width: 260px;
   position: relative;
 }
-section.reservation .from-group .icon-input .form-control {
+section.reservation form .from-group .icon-input .form-control {
   max-width: 100%;
   border-radius: 3px;
   border: 2px solid #cccccc;
   color: gray;
 }
-section.reservation .from-group .icon-input .form-control:focus {
+section.reservation form .from-group .icon-input .form-control:focus {
   border: 2px solid #ff7a5c;
   box-shadow: none;
 }
-section.reservation .from-group .icon-input .form-control:hover {
+section.reservation form .from-group .icon-input .form-control:hover {
   border: 2px solid #ff7a5c;
 }
-section.reservation .from-group .icon-input .icon {
+section.reservation form .from-group .icon-input .icon {
   position: absolute;
   top: 20%;
   right: 20px;
 }
-section.reservation button {
+section.reservation form button {
   margin: 20px 0 50px;
   background-color: #fff;
   width: 280px;
@@ -316,7 +316,7 @@ section.reservation button {
   font-weight: bold;
   letter-spacing: 0.2rem;
 }
-section.reservation button:hover {
+section.reservation form button:hover {
   background-color: #ff7a5c;
   color: black;
 }
